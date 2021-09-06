@@ -17,7 +17,7 @@ class Score < ApplicationRecord
   def self.search(params)
     player, before, after, from_date, to_date  = params[:player], params[:before], params[:after], params[:from_date], params[:to_date]
     # Set query for all record
-    score = self
+    score = Score.all
 
     # Filter by name
     if player.present?
