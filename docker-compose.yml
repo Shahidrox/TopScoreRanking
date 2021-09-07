@@ -26,7 +26,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/docker_rails_api
+      - .:/TopScoreRanking
 volumes:
   psgl_data:
   # mongo-data:
