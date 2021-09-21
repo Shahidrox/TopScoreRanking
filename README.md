@@ -15,7 +15,7 @@ application up and running. Things you may want to cover:
 ## Getting Started
 ```bash
 git clone git@github.com:Shahidrox/TopScoreRanking.git
-cd docker_rails_api
+cd TopScoreRanking
 ```
 ```bash
 bundle exec rails db:create -e test
